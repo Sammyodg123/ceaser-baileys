@@ -1,0 +1,76 @@
+{
+  "name": "ceaser-baileys",
+  "version": "3.4.14",
+  "description": "LordCeaser Baileys v1.0.2 - Cleanest WhatsApp API with Interactive Buttons, List Menus, GStatus Thumbnail Fix, Music/Video URL Import, Polls & More",
+  "main": "index.js",
+  "types": "lib/index.d.ts",
+  "author": "Lord Ceaser <lordceaser>",
+  "license": "MIT",
+  "homepage": "https://github.com/Sammyodg123/ceaser-baileys#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sammyodg123/ceaser-baileys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sammyodg123/ceaser-baileys/issues"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "whatsapp-web",
+    "whatsapp-api",
+    "whatsapp-bot",
+    "lordceaser"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib",
+    "WAProto",
+    "WABinary",
+    "WASignalGroup",
+    "WAMessage",
+    "WAM",
+    "src",
+    "index.js",
+    "banner.png",
+    "status-extras.js"
+  ],
+  "scripts": {
+    "build": "tsc --skipLibCheck --noEmitOnError false --outDir lib & exit 0",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@cacheable/node-cache": "^3.1.1",
+    "@hapi/boom": "^10.0.1",
+    "async-mutex": "^0.5.0",
+    "axios": "^1.6.7",
+    "ceaser-bailys": "^0.0.0-stage",
+    "dotenv": "^18.0.10",
+    "fflate": "^0.8.3",
+    "jimp": "^1.6.0",
+    "libsignal": "github:WhiskeySockets/libsignal-node",
+    "link-preview-js": "^3.0.5",
+    "lru-cache": "^11.5.3",
+    "node-cache": "^5.1.2",
+    "p-queue": "^10.0.0",
+    "pino": "^8.19.0",
+    "qrcode-terminal": "^0.12.0",
+    "telegraf": "^4.16.3",
+    "whatsapp-rust-bridge": "^0.5.5",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "typescript": "^5.3.3"
+  },
+  "type": "commonjs",
+  "bundleDependencies": [
+    "libsignal"
+  ]
+}
