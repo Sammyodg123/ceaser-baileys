@@ -8,8 +8,8 @@
 
 <br><br>
 
-![npm](https://img.shields.io/npm/v/ceaser-bailys?style=for-the-badge&color=00f7ff&logo=npm&label=VERSION)
-![downloads](https://img.shields.io/npm/dm/ceaser-bailys?style=for-the-badge&color=ff00c8&label=DOWNLOADS)
+![npm](https://img.shields.io/npm/v/ceaser-baileys?style=for-the-badge&color=00f7ff&logo=npm&label=VERSION)
+![downloads](https://img.shields.io/npm/dm/ceaser-baileys?style=for-the-badge&color=ff00c8&label=DOWNLOADS)
 ![made by](https://img.shields.io/badge/MADE%20BY-LORD%20CEASER-black?style=for-the-badge)
 ![node](https://img.shields.io/badge/node-%3E%3D18-brightgreen?style=for-the-badge&logo=node.js)
 ![license](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
@@ -31,13 +31,13 @@
 ## 📦 Installation
 
 ```bash
-npm install ceaser-bailys
+npm install ceaser-baileys
 ```
 
 ## ⚡ Quick Start
 
 ```js
-const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = require('ceaser-bailys')
+const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = require('ceaser-baileys')
 const { Boom } = require('@hapi/boom')
 
 async function start() {
@@ -123,7 +123,7 @@ await sock.sendMessage(jid, {
 ### 5. 📸 Status with Link Preview
 ```js
 await sock.sendMessage('status@broadcast', {
-  text: 'https://www.npmjs.com/package/ceaser-bailys'
+  text: 'https://www.npmjs.com/package/ceaser-baileys'
 }, { statusJidList: [jid] })
 ```
 
@@ -166,7 +166,7 @@ await sock.newsletterUnfollow('120363XXXXXXXXXX@newsletter')
 
 ```bash
 pkg update && pkg install nodejs git -y
-npm install ceaser-bailys
+npm install ceaser-baileys
 node index.js
 ```
 

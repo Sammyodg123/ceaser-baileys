@@ -1,18 +1,18 @@
 {
-  "name": "ceaser-bailys",
+  "name": "ceaser-baileys",
   "version": "3.4.14",
   "description": "LordCeaser Baileys v1.0.2 - Cleanest WhatsApp API with Interactive Buttons, List Menus, GStatus Thumbnail Fix, Music/Video URL Import, Polls & More",
   "main": "index.js",
   "types": "lib/index.d.ts",
   "author": "Lord Ceaser <lordceaser>",
   "license": "MIT",
-  "homepage": "https://github.com/Sammyodg123/ceaser-bailys#readme",
+  "homepage": "https://github.com/Sammyodg123/ceaser-baileys#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sammyodg123/ceaser-bailys.git"
+    "url": "git+https://github.com/Sammyodg123/ceaser-baileys.git"
   },
   "bugs": {
-    "url": "https://github.com/Sammyodg123/ceaser-bailys/issues"
+    "url": "https://github.com/Sammyodg123/ceaser-baileys/issues"
   },
   "keywords": [
     "whatsapp",
@@ -50,7 +50,6 @@
     "@hapi/boom": "^10.0.1",
     "async-mutex": "^0.5.0",
     "axios": "^1.6.7",
-    "ceaser-bailys": "^0.0.0-stage",
     "dotenv": "^18.0.10",
     "fflate": "^0.8.3",
     "jimp": "^1.6.0",
